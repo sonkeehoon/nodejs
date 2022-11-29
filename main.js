@@ -1,4 +1,5 @@
 // 28장 부터
+// 27장 - 수업의 정상(초보자는 여기까지만)
 // arr.push : 파이썬 리스트append와 동일 기능
 var http = require('http');
 var fs = require('fs');
