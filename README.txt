@@ -22,3 +22,5 @@ pm2 프로그램 종료 : pm2 stop ${processName}.js
 ec2인스턴스(우분투)에서 pm2 start ${filename}.js --watch 를 하면 잠시 뒤에 인스턴스 자체가 멈춰버리는 오류가 나타났다.
 우선 --watch가 주는 실시간으로 저장한 파일을 반영하는 기능은 포기하기로 하고
 main.js를 수정한 경우에는 저장하고 pm2 restart ${filename}.js 하면 팅기지도 않고 안전하게 변경사항이 적용된다. 
+
+
