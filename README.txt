@@ -16,6 +16,7 @@ pm2 실행 : pm2 start ${filename}.js --watch
 현재 실행중인 프로세스들 확인 : pm2 list
 pm2 프로그램 종료 : pm2 stop ${processName}.js
 실시간 로그 : pm2 log
+* 마무리 할때는 pm2 stop main.js 먼저 하고 ec2 인스턴스를 끄자.
 
 2022-12-02
 ec2인스턴스(우분투)에서 pm2 start ${filename}.js --watch 를 하면 잠시 뒤에 인스턴스 자체가 멈춰버리는 오류가 나타났다.
