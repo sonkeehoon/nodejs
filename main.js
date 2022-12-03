@@ -14,7 +14,7 @@ function templateHTML(title, list, body, control){
     <!doctype html>
     <html>
     <head>
-        <title>WEB1123 - ${title}</title>
+        <title>WEB1 - ${title}</title>
         <meta charset="utf-8">
     </head>
     <body>
