@@ -26,6 +26,7 @@ forever 설치 : npm install -g forever
 - 이렇게 하면 vscode를 꺼도 main.js는 꺼지지 않는다
 - forever start한 main.js를 끄고 싶다면  forever stop main.js
 - 실행중인 forever 목록보기 : forever list 
+- nodejs는 일단 윈도우에서만 코딩하자..(생활코딩 강의 들을때는)
 
 
 
