@@ -1,3 +1,5 @@
+생활코딩 nodejs 강의폴더
+
 윈도우에서 nodejs를 공부하다가..
 pm2가 윈도우에서는 작동이 잘 안된다고해서 aws ec2인스턴스(ubuntu server)로 이사를 했다
 

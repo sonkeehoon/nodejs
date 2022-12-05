@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "생활코딩 nodejs 강의폴더",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonkeehoon/nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonkeehoon/nodejs/issues"
+  },
+  "homepage": "https://github.com/sonkeehoon/nodejs#readme",
+  "dependencies": {
+    "sanitize-html": "^2.7.3"
+  }
+}

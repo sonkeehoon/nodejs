@@ -1,0 +1,5 @@
+npm init
+(enter and enter..)
+
+npm install -S sanitize-html
+- node_modules라는 폴더가 생성됨
