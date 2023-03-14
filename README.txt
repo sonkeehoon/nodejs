@@ -1,6 +1,6 @@
-생활코딩 nodejs 강의폴더
+생활코딩 nodejs 강의 들으면서 따라하는 코드
 
-윈도우에서 nodejs를 공부하다가..
+윈도우에서 nodejs를 pm2로 작동 하려다가..
 pm2가 윈도우에서는 작동이 잘 안된다고해서 aws ec2인스턴스(ubuntu server)로 이사를 했다
 
 리눅스에 nodejs 설치하는 방법
@@ -17,7 +17,8 @@ main.js를 수정한 경우에는 저장하고 pm2 restart main 하면 팅기지
 
 2022-12-04 
 pm2 때문에 우여곡절이 많았다..
-pm2는 안쓰기로 결정했고 forever 이라는 패키지를 활용 할것이다.
+pm2는 안쓰기로 결정했다. 
+참고로 forever 이라는 패키지도 있다.
 forever 설치 : npm install -g forever
 
 최종 결정
