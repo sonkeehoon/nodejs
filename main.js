@@ -1,7 +1,7 @@
 // 12강 -> 수업의 정상
 // https://www.youtube.com/watch?v=VToaABEsfbY&list=PLuHgQVnccGMAicFFRh8vFFFtLLlNojWUh&index=11
 // 27강 - 수업의 정상(초보자는 여기까지만)
-// Node.js & MySQL 17강부터
+// Node.js & MySQL 19강부터
 // arr.push : 파이썬의 리스트append와 동일 기능
 // require는 파이썬의 import와 비슷한 의미이다 (모듈을 가져옴)
 var port = 5000;
@@ -35,6 +35,12 @@ var app = http.createServer(function(request, response){
         topic.delete_process(request, response);
     } else if(pathname === '/author'){
         author.home(request, response);
+    } else if(pathname === '/author/create_process'){
+        author.create_process(request, response);
+    } else if(pathname === '/author/update'){
+        author.update(request, response);
+    } else if(pathname === '/author/update_process'){
+        author.update_process(request, response);
     }else {
         response.writeHead(404);
         response.end('Not found');
