@@ -1,14 +1,13 @@
-생활코딩 nodejs 강의 들으면서 따라하는 코드
+<h2>생활코딩 nodejs 강의 들으면서 따라하는 코드</h2>
 
 윈도우에서 nodejs를 pm2로 작동 하려다가..
 pm2가 윈도우에서는 작동이 잘 안된다고해서 aws ec2인스턴스(ubuntu server)로 이사를 했다
 
-리눅스에 nodejs 설치하는 방법
+리눅스에 nodejs 설치하는 방법 : 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . ~/.nvm/nvm.sh
 nvm install 16.18.1 (18.대버전은 pm2가 잘 안되는것 같다)
-설치확인 : 
-node --version
+설치확인 : node --version
 
 2022-12-02
 ec2인스턴스(우분투)에서 pm2 start main.js --watch 를 하면 잠시 뒤에 인스턴스 자체가 멈춰버리는 오류가 나타났다.
