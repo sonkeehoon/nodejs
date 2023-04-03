@@ -10,14 +10,14 @@ nvm install 16.18.1 (18.대버전은 pm2가 잘 안되는것 같다)
 설치확인 : node --version
 
 2022-12-02
-ec2인스턴스(우분투)에서 pm2 start main.js --watch 를 하면 잠시 뒤에 인스턴스 자체가 멈춰버리는 오류가 나타났다.
+ec2인스턴스(우분투)에서 pm2 start main.js --watch 를 하면 잠시 뒤에 인스턴스 자체가 멈춰버리는 오류가 나타났다
 우선 --watch가 주는 실시간으로 저장한 파일을 반영하는 기능은 포기하기로 하고
-main.js를 수정한 경우에는 저장하고 pm2 restart main 하면 팅기지도 않고 안전하게 변경사항이 적용된다.
+main.js를 수정한 경우에는 저장하고 pm2 restart main 하면 팅기지도 않고 안전하게 변경사항이 적용된다
 
 2022-12-04 
 pm2 때문에 우여곡절이 많았다..
-pm2는 안쓰기로 결정했다. 
-참고로 forever 이라는 패키지도 있다.
+pm2는 안쓰기로 결정했다
+참고로 forever 이라는 패키지도 있다
 forever 설치 : npm install -g forever
 
 최종 결정
